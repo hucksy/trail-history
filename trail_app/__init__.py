@@ -1,4 +1,5 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
+from trail_app import config
 
 
 def create_app() -> FastAPI:

@@ -1,6 +1,2 @@
-from .trail_endpoints import trails_router
-
-
-
-
+from .endpoints import trails_router
 
